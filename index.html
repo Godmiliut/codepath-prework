@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Funky Lights</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Funky Lights
+    </h1>
+    <p>
+      Welcome to Funky Lights! A game that tests your memory capabilities... Ready to play?
+    </p>
+    <p>
+      <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+      <text id="level" class="hidden"></text>
+      <text id="timer" class="hidden"></text>
+    </p>
+    
+    <div id="gameButtonArea">
+      <div id="gameButtonRow1">
+      <button id="button1" onmousedown="startTone(1)" onmouseout="stopTone()" onmouseup="stopTone()" onclick="guess(1)"></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseout="stopTone()" onmouseup="stopTone()" onclick="guess(2)"></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseout="stopTone()" onmouseup="stopTone()" onclick="guess(3)"></button>
+    </div>
+    
+    <div id="gameButtonRow2">
+      <button id="button4" onmousedown="startTone(4)" onmouseout="stopTone()" onmouseup="stopTone()" onclick="guess(4)"></button>
+      <button id="button5" onmousedown="startTone(5)" onmouseout="stopTone()" onmouseup="stopTone()" onclick="guess(5)"></button>
+      <button id="button6" onmousedown="startTone(6)" onmouseout="stopTone()" onmouseup="stopTone()" onclick="guess(6)"></button>
+    </div>
+    </div>
+    <div id="strikes">
+      <asset id="strike1" class="hidden">
+        <img src="https://cdn.glitch.global/81850327-64ef-412c-aa81-1910bb99fa8c/xmark.png?v=1648068858238" width="50" height="50">
+      </asset>
+      <asset id="strike2" class="hidden">
+      <img src="https://cdn.glitch.global/81850327-64ef-412c-aa81-1910bb99fa8c/xmark.png?v=1648068858238" width="50" height="50">
+      </asset>
+      <asset id="strike3" class="hidden">
+      <img src="https://cdn.glitch.global/81850327-64ef-412c-aa81-1910bb99fa8c/xmark.png?v=1648068858238" width="50" height="50">
+      </asset>
+    </div>
+    
+    <div id="sounds">
+      <audio src="https://cdn.glitch.global/81850327-64ef-412c-aa81-1910bb99fa8c/tada-fanfare-a-6313.mp3?v=1648355622005" id="victorySound"></audio>
+      <audio src="https://cdn.glitch.global/81850327-64ef-412c-aa81-1910bb99fa8c/%5BSound%20Effect%5D%20Knuckles%20-%20Oh%20No!%20(320%20kbps).mp3?v=1648416426562" id="defeatSound"></audio>
+      <audio src="https://cdn.glitch.global/81850327-64ef-412c-aa81-1910bb99fa8c/Boogie%20Wonderland%20-%20Earth%2C%20Wind%20and%20Fire%208bit%20Jazz%20Version%20(128%20kbps).mp3?v=1648502689588" id="backgroundMusic"></audio>
+    </div>
+    
+  </body>
+</html>
