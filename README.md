@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 - [x] Added level tag in order to show the user how much progress they're done.
 
 ## Video Walkthrough (GIF)
-http://g.recordit.co/tSm03vfJQN.gif
+![me](https://github.com/Godmiliut/codepath-prework/blob/main/gif%20for%20prework.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
