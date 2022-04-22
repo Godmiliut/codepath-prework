@@ -72,12 +72,12 @@ Before working on this project, I did not know about the implementation of CSS, 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-If I had found about this opportunity with a lot more of anticipation, I would have added several optional features to my project. Firstly, I would have styled it more appropriately so the title of the program would give a more accurate presentation of the game itself; less generic fonts, custom button sounds, and 60s themed images. Additionally, I would've loved to implement a "how to play" button that would display a little description of the game mechanics plus a centered gif for an example. Even though I am glad and proud of what I developed in a short time frame and with not prior experience, I cannot see my program without thinking of the big room for improvement it has, which makes me look forward to what I work in next. If this program was good, next one will be even better!
+If I had found about this opportunity with a lot more of anticipation, I would have added several optional features to my project. Firstly, I would have styled it more appropriately so the title of the program would give a more accurate presentation of the game itself; less generic fonts, custom button sounds, and 60s themed images. Additionally, I would've loved to implement a "how to play" button that would display a little description of the game mechanics plus a centered gif for an example. Even though I am glad and proud of what I developed in a short time frame and with not prior experience, I still notice the big room for improvement it has, which makes me look forward to what I work in next. If this program was good, next one will be even better!
 
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording]
-(https://www.loom.com/share/7b25b7b8a2cf4296b771c34d0c9bfcc4)
+(https://web.microsoftstream.com/video/8717a3cb-1a5f-42b0-bbee-7bc89eae4354)
 
 
 ## License
